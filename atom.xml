@@ -4,7 +4,7 @@
   <subtitle><![CDATA[tek driven biz]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ivywjhua.github.io/"/>
-  <updated>2016-01-14T15:38:25.553Z</updated>
+  <updated>2016-01-15T15:06:37.095Z</updated>
   <id>http://ivywjhua.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://ivywjhua.github.io/2016/01/07/hexo-install-config-windows/"/>
     <id>http://ivywjhua.github.io/2016/01/07/hexo-install-config-windows/</id>
     <published>2016-01-07T03:49:27.000Z</published>
-    <updated>2016-01-14T15:38:25.553Z</updated>
+    <updated>2016-01-15T15:06:37.095Z</updated>
     <content type="html"><![CDATA[<p>hexo在windows, linux上的安装，配置和使用</p>
 <h2 id="windows_u4E0A_u5B89_u88C5hexo_u548C_u914D_u7F6E"><a href="#windows_u4E0A_u5B89_u88C5hexo_u548C_u914D_u7F6E" class="headerlink" title="windows上安装hexo和配置"></a>windows上安装hexo和配置</h2><ul>
 <li>安装 node, 下载并安装 node-v4.2.4-x86.msi</li>
@@ -29,6 +29,10 @@
 <li>安装node依赖的包，npm install</li>
 <li>安装deployer插件，npm install hexo-deployer-git –save</li>
 <li>安装feed插件，npm install hexo-generator-feed –save</li>
+</ul>
+<h2 id="hexo_dependency_install"><a href="#hexo_dependency_install" class="headerlink" title="hexo dependency install"></a>hexo dependency install</h2><ul>
+<li>git submodule update –init –recursive</li>
+<li>npm install</li>
 </ul>
 <h2 id="hexo_u5E38_u7528_u547D_u4EE4"><a href="#hexo_u5E38_u7528_u547D_u4EE4" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h2><ul>
 <li>hexo new “My New Post”</li>
